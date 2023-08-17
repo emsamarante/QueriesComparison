@@ -33,3 +33,9 @@ The picture below shows the dataset:
 <h3>Third query - version 2: window function, subquery and LIMIT result</h3>
 
 ![Query 3](https://github.com/emsamarante/QueriesComparison/blob/main/Query3-v2.png)
+
+<h2>Conclusion</h2>
+
+In spite of having the same result, the cost of each query is diferent. So, depending on the amount of data it is very important
+to stay stuned in performance issue. When we limit the amount of lines we can get better performances.
+It is important to mention that the first query has the best performance and it is more readable. 
